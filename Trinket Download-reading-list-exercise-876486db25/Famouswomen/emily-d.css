@@ -1,0 +1,33 @@
+a, header {
+  text-align:center;
+}
+header {
+  border: 6px solid black;
+  font-family: Impact;
+}
+blockquote {
+  text-align:center;
+}
+/*
+body {
+  background-color: rgb(255, 0, 0);
+}
+*/
+body {
+  background-color: Cadetblue;
+}
+div {
+  text-align:center;
+  border: 6px solid black;
+}
+section {
+    width:600px;
+    margin:auto; /* Centers the div on the page */
+    border:5px solid black;
+    padding:25px;
+}
+/*
+body {
+  background-color: #660066;
+}
+*/ 
