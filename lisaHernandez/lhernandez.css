@@ -1,0 +1,13 @@
+
+#wrapper {
+    width:600px;
+    margin:0 auto; /* Centers the div on the page */
+    border:10px solid tan;
+    padding:25px; 
+    background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+}
+
+
+.primary {
+  font-weight:bold;
+}
