@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        div {
+           width:100px;
+           height:100px;
+           float:left;
+           margin:10px;
+           font-family:consolas;
+           padding:10px;
+        }
+
+        #lucy {
+           background-color:orange;
+        }
+
+        #ricky {
+           background-color:grey;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id='lucy' class='ricardo'>Lucy Ricardo</div>
+    <div id='ricky' class='ricardo'>Ricky Ricardo</div>
+
+    <script>
+       $('#lucy').css('border', '3px solid Red');
+       $('#lucy, #ricky').css('background-color', 'yellow');
+       $('div').css('opacity', '0.2');
+    </script>
+</body>
+</html>
