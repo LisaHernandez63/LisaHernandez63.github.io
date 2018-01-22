@@ -25,6 +25,8 @@ header, section {
     border:5px solid black;
     padding:25px;
 }
+footer {
+  text-align:center;
 /*
 body {
   background-color: #660066;
