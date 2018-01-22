@@ -24,6 +24,7 @@ header, section {
     margin:auto; /* Centers the div on the page */
     border:5px solid black;
     padding:25px;
+    background-color: #660066;
 }
 footer {
   text-align:center;
