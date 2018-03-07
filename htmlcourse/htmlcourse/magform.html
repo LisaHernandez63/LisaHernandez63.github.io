@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Magazine Form</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+    <h1>Magazine Order Form</h1>
+    <form name="donationForm" id="donationForm" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
+    <table border="1">
+    <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="user_name"></td>
+    </tr>
+    <tr>
+        <td><label for="street">Street Address:</label></td>
+        <td><input type="text" id="street" name="street"></td>
+    </tr>
+    <tr>
+        <td><label for="town">City/Town:</label></td>
+        <td><input type="text" id="town" name="town"></td>
+    </tr>
+    <tr>
+        <td><label for="state">State:</label></td>
+        <td><input type="text" id="state" name="state"></td>
+    </tr>
+    <tr>
+        <td><label for="zip">Zip Code:</label></td>
+        <td><input type="text" id="zip" name="zip"></td>
+    </tr>
+</table>
+    <h2>Magazine Choices</h2>
+    <table border="1">
+    <tr>
+    <td><input type="checkbox" name="magazine" value="Newsweek">Newsweek</td>
+    </tr>
+    <tr>
+    <td><input type="checkbox" name="magazine" value="Time">Time</td>
+    </tr>
+    <tr>
+    <td><input type="checkbox" name="magazine" value="Sports Illustrated">Sports Illustrated</td>
+    </tr>
+    <tr>
+    <td><input type="checkbox" name="magazine" value="Internet World">Internet World</td>
+    </tr>
+    </table>
+    <h2>Payment Options</h2>
+    <table border="1">
+    <tr>
+    <td><input type="radio" name="pmethod" value="bycredit"> Pay By Credit</td>
+    <td><input type="radio" name="pmethod" value="bymail"> Pay By Mail</td>
+    <tr>
+    <tr>
+    <td><input type="radio" name="payment" value="visa"> Visa</td>
+    </tr>
+    <tr>
+    <td><input type="radio" name="payment" value="mastercard"> MasterCard</td>
+    </tr>
+    <tr>
+    <td><input type="radio" name="payment" value="discover"> Discover</td>
+    </tr>
+    </table>
+    <h2>Card Information</h2>
+    <table border="1">
+        <tr>
+        <td><label for="number">Card Number:</label></td>
+        <td><input type="text" id="number" name="number"></td>
+        </tr>
+        <tr>
+        <td><label for="expdate">Expiration Date:</label></td>
+        <td><input type="text" id="expdate" name="expdate"></td>
+        </tr>
+    </table>
+    <br>
+    <div class="button">
+    <button type="submit">Submit</button>
+    <input type="reset" value ="Reset"/>
+    </div>
+<br>
+</form>
+    <a href="index.html">Back</a>
+</body>
+</html>
