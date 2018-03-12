@@ -1,12 +1,35 @@
 body {
     background-color: #DFE2DB;
 }
-li {
+.nav {
+  height: 40px;
+  background: #7E8F7C;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  list-style:none;
+}
+.nav ul li a {
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+}
+.nav ul li a:hover {
+  color:white;
+}
+#list ol li {
     list-style: none;
     font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
-li a {
+#list ol li a {
     text-decoration: none;
     display: block;
     border: 3px solid black;
@@ -29,8 +52,21 @@ img {
     float: left;
     text-align: center;
     margin-left: 150px;
-    margin-top: 75px;
+    margin-top: 40px;
 }
 #carlton {
     text-align: center;
+}
+#funstuff {
+    text-align: center;
+}
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   text-align: center;
+   background:#999;
+   padding-bottom: 15px;
 }
