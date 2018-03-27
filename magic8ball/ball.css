@@ -1,0 +1,23 @@
+body {
+  background-color: teal;
+}
+h1 {
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+#ball {
+    margin-top: 20px;
+    background-color: black;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+button {
+  height: 100px;
+  font-size: 14px;
+}
