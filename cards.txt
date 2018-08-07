@@ -1,0 +1,4 @@
+Kittycat, 10, 34, Pototato Chips, cats.png
+Scaredy, 13, 28, Chocolate, scaredy.png
+Blackie, 6, 4, Pizza, blackie.png
+Hal9000, 6, 4, nuts and bolts, hal9000.png
